@@ -2,89 +2,339 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+
+  <!-- Mobile / responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Contact a space engineering student for internships, research, student teams, and collaboration." />
-  <title>Contact | Yashvi Shah</title>
+
+  <!-- SEO -->
+  <title>Contact Yashvi Shah | Aerospace Engineering Student</title>
+  <meta
+    name="description"
+    content="Contact Yashvi Shah, an Aerospace Engineering student in Toronto, Canada, for internships, undergraduate research, engineering teams, and project collaboration."
+  />
+  <link rel="canonical" href="https://yashvishah.com/contact.html" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact Yashvi Shah | Aerospace Engineering Student" />
+  <meta
+    property="og:description"
+    content="Get in touch with Yashvi Shah for aerospace engineering internships, undergraduate research, student teams, and project collaboration."
+  />
+  <meta property="og:url" content="https://yashvishah.com/contact.html" />
+  <meta property="og:site_name" content="Yashvi Shah | Aerospace Engineering Portfolio" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Contact Yashvi Shah | Aerospace Engineering Student" />
+  <meta
+    name="twitter:description"
+    content="Contact Yashvi Shah for aerospace engineering internships, research, student teams, and engineering collaboration."
+  />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Contact Yashvi Shah",
+    "url": "https://yashvishah.com/contact.html",
+    "description": "Contact page for Yashvi Shah, an Aerospace Engineering student in Toronto, Canada.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Yashvi Shah | Aerospace Engineering Portfolio",
+      "url": "https://yashvishah.com/"
+    },
+    "about": {
+      "@type": "Person",
+      "name": "Yashvi Shah",
+      "url": "https://yashvishah.com/",
+      "jobTitle": "Aerospace Engineering Student",
+      "email": "mailto:yashvishah1709@gmail.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/yashvi-shah17/",
+        "https://github.com/yashvis1709"
+      ]
+    }
+  }
+  </script>
 </head>
+
 <body>
+
+  <!-- =========================
+       Navigation
+  ========================== -->
   <header class="nav-shell">
-    
     <div class="container nav">
-      <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Yashvi Shah <small>Aerospace Eng. | CAD & Systems Design</small></span></a>
+
+      <a class="brand" href="index.html" aria-label="Yashvi Shah home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>
+          Yashvi Shah
+          <small>Aerospace Eng. | CAD & Systems Design</small>
+        </span>
+      </a>
+
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="experience.html">Experience</a>
-        <a class="active" href="contact.html">Contact</a>
+        <a class="active" href="contact.html" aria-current="page">Contact</a>
       </nav>
-      <a class="btn btn-primary" href="projects.html">View projects →</a>
-      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+
+      <a class="btn btn-primary" href="projects.html">
+        View projects →
+      </a>
+
+      <button
+        class="mobile-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        ☰
+      </button>
+
     </div>
   </header>
 
+
+  <!-- =========================
+       Main Content
+  ========================== -->
   <main>
-    <section class="page-hero">
+
+    <!-- Page Introduction -->
+    <section class="page-hero" aria-labelledby="contact-heading">
       <div class="container">
-        <h1>Let's Connect</h1>
-        <p>For internships, undergraduate research, student design teams, mentorship, or project collaboration, feel free to reach out.</p>
+
+        <div class="eyebrow">CONTACT</div>
+
+        <h1 id="contact-heading">
+          Let's Connect
+        </h1>
+
+        <p>
+          For internships, undergraduate research, student design teams,
+          mentorship, or project collaboration, feel free to reach out.
+        </p>
+
       </div>
     </section>
 
-    <section class="section">
+
+    <!-- Contact Section -->
+    <section class="section" aria-labelledby="contact-details-heading">
       <div class="container contact-grid">
+
+        <!-- Contact Information -->
         <div class="card">
-          <h2>Let's Connect.</h2>
-          <p>Here are my contact details:</p>
+
+          <h2 id="contact-details-heading">
+            Let's Connect.
+          </h2>
+
+          <p>
+            I'm always interested in learning about new engineering
+            opportunities and projects. Here are the best ways to reach me:
+          </p>
+
           <div class="contact-list">
-            <div class="contact-line"><span>✉</span><span><strong>Email:</strong> yashvishah1709@gmail.com</span></div>
-            <div class="contact-line"><span>in</span><span><strong>LinkedIn:</strong> www.linkedin.com/in/yashvi-shah17</span></div>
-            <div class="contact-line"><span>⌘</span><span><strong>GitHub:</strong> github.com/yashvis1709</span></div>
-            <div class="contact-line"><span>⌖</span><span><strong>Location:</strong> Toronto, Canada</span></div>
+
+            <!-- Email -->
+            <div class="contact-line">
+              <span aria-hidden="true">✉</span>
+              <span>
+                <strong>Email:</strong>
+                <a href="mailto:yashvishah1709@gmail.com">
+                  yashvishah1709@gmail.com
+                </a>
+              </span>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-line">
+              <span aria-hidden="true">in</span>
+              <span>
+                <strong>LinkedIn:</strong>
+                <a
+                  href="https://www.linkedin.com/in/yashvi-shah17/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Yashvi Shah on LinkedIn"
+                >
+                  linkedin.com/in/yashvi-shah17
+                </a>
+              </span>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-line">
+              <span aria-hidden="true">⌘</span>
+              <span>
+                <strong>GitHub:</strong>
+                <a
+                  href="https://github.com/yashvis1709"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Yashvi Shah on GitHub"
+                >
+                  github.com/yashvis1709
+                </a>
+              </span>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-line">
+              <span aria-hidden="true">⌖</span>
+              <span>
+                <strong>Location:</strong> Toronto, Canada
+              </span>
+            </div>
+
           </div>
         </div>
 
-        <form 
-          class="card form" 
-          id="contact-form" 
-          name="Portfolio Contact Form"
-          action="https://formspree.io/f/mgaenqyy" 
-          method="POST"
-        >
-          
-          <input type="hidden" name="_subject" value="Portfolio Contact Form Submission">
 
+        <!-- Contact Form -->
+        <form
+          class="card form"
+          id="contact-form"
+          name="Portfolio Contact Form"
+          action="https://formspree.io/f/mgaenqyy"
+          method="POST"
+          aria-labelledby="contact-form-heading"
+        >
+
+          <h2 id="contact-form-heading" class="sr-only">
+            Contact form
+          </h2>
+
+          <!-- Email subject -->
+          <input
+            type="hidden"
+            name="_subject"
+            value="Portfolio Contact Form Submission"
+          />
+
+          <!-- Name -->
           <div class="field">
             <label for="name">Name</label>
-            <input 
-              id="name" 
-              name="name" 
+
+            <input
+              id="name"
+              name="name"
               type="text"
-              required 
-              placeholder="Your name" 
+              autocomplete="name"
+              required
+              placeholder="Your name"
             />
           </div>
+
+
+          <!-- Email -->
           <div class="field">
             <label for="email">Email</label>
-            <input id="email" name="email" type="email" required placeholder ="you@example.com" />
+
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              inputmode="email"
+              required
+              placeholder="you@example.com"
+            />
           </div>
+
+
+          <!-- Subject -->
           <div class="field">
             <label for="subject">Subject</label>
-            <input id="subject" name="subject" placeholder="Internship, research, collaboration..." />
+
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              autocomplete="off"
+              placeholder="Internship, research, collaboration..."
+            />
           </div>
+
+
+          <!-- Message -->
           <div class="field">
             <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Tell me a little about the opportunity or project."></textarea>
+
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Tell me a little about the opportunity or project."
+              rows="7"
+            ></textarea>
           </div>
-         <button class="btn btn-primary" type="submit">Send message →</button>
-         <p id="form-status" aria-live="polite"></p>
-         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+
+          <!-- Submit -->
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            Send message →
+          </button>
+
+
+          <!-- Form status -->
+          <p
+            id="form-status"
+            aria-live="polite"
+            role="status"
+          ></p>
+
+
+          <!-- Formspree honeypot -->
+          <input
+            type="text"
+            name="_gotcha"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+            style="display:none"
+          />
+
         </form>
+
       </div>
     </section>
+
   </main>
 
-  <footer><div class="container footer-inner"><span>© <span data-year></span> Yashvi Shah | Portfolio</span><span>Aerospace Engineering Portfolio</span></div></footer>
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer>
+    <div class="container footer-inner">
+
+      <span>
+        © <span data-year></span> Yashvi Shah | Portfolio
+      </span>
+
+      <span>
+        Aerospace Engineering Portfolio
+      </span>
+
+    </div>
+  </footer>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
