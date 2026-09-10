@@ -2,102 +2,518 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+
+  <!-- Mobile / responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Space engineering student projects in spacecraft systems, orbital mechanics, embedded systems, and design." />
-  <title>Projects | Yashvi Shah</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <!-- SEO -->
+  <title>Engineering Projects | Yashvi Shah | Aerospace & Robotics</title>
+
+  <meta
+    name="description"
+    content="Explore Yashvi Shah's aerospace engineering projects, including RC aircraft design and manufacturing, high-powered rocketry, CAD, aerodynamics, recovery systems, and flight testing."
+  />
+
+  <link
+    rel="canonical"
+    href="https://yashvishah.com/projects.html"
+  />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+
+  <meta
+    property="og:title"
+    content="Engineering Projects | Yashvi Shah"
+  />
+
+  <meta
+    property="og:description"
+    content="Aerospace engineering projects involving aircraft design, CAD, manufacturing, rocketry, aerodynamics, structural design, and flight testing."
+  />
+
+  <meta
+    property="og:url"
+    content="https://yashvishah.com/projects.html"
+  />
+
+  <meta
+    property="og:site_name"
+    content="Yashvi Shah | Aerospace Engineering Portfolio"
+  />
+
+  <!-- Twitter / X -->
+  <meta
+    name="twitter:card"
+    content="summary"
+  />
+
+  <meta
+    name="twitter:title"
+    content="Engineering Projects | Yashvi Shah"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Explore Yashvi Shah's aerospace engineering projects, including RC aircraft, high-powered rocketry, CAD, manufacturing, and flight testing."
+  />
+
+  <!-- Styles -->
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Engineering Projects | Yashvi Shah",
+    "url": "https://yashvishah.com/projects.html",
+    "description": "A collection of aerospace engineering projects by Yashvi Shah, including RC aircraft design, manufacturing, high-powered rocketry, CAD, aerodynamics, and flight testing.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Yashvi Shah | Aerospace Engineering Portfolio",
+      "url": "https://yashvishah.com/"
+    },
+    "about": {
+      "@type": "Person",
+      "name": "Yashvi Shah",
+      "url": "https://yashvishah.com/",
+      "jobTitle": "Aerospace Engineering Student",
+      "sameAs": [
+        "https://www.linkedin.com/in/yashvi-shah17/",
+        "https://github.com/yashvis1709"
+      ]
+    },
+    "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Remote Control Aircraft",
+        "description": "RC aircraft designed and built for the TMAD RC3 Competition, involving CAD, airframe manufacturing, electrical wiring, assembly, and flight testing.",
+        "keywords": [
+          "RC aircraft",
+          "aircraft design",
+          "CAD",
+          "airframe manufacturing",
+          "electrical wiring",
+          "flight testing"
+        ]
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Stardust: High Power Rocket",
+        "description": "High-powered rocket designed and built by Yashvi Shah, involving airframe design, aerodynamic stability analysis, recovery integration, structural design, and flight-performance simulation.",
+        "keywords": [
+          "high-powered rocketry",
+          "rocket design",
+          "aerodynamics",
+          "recovery systems",
+          "structural design",
+          "flight simulation"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
+
 <body>
+
+  <!-- =========================
+       Navigation
+  ========================== -->
   <header class="nav-shell">
     <div class="container nav">
-      <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Yashvi Shah <small>Aerospace Eng. | CAD & Systems Design</small></span></a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a class="active" href="projects.html">Projects</a>
-        <a href="experience.html">Experience</a>
-        <a href="contact.html">Contact</a>
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Yashvi Shah home"
+      >
+        <span
+          class="brand-mark"
+          aria-hidden="true"
+        >
+          ✦
+        </span>
+
+        <span>
+          Yashvi Shah
+          <small>
+            Aerospace Eng. | CAD & Systems Design
+          </small>
+        </span>
+      </a>
+
+      <nav
+        class="nav-links"
+        aria-label="Primary navigation"
+      >
+        <a href="index.html">
+          Home
+        </a>
+
+        <a
+          class="active"
+          href="projects.html"
+          aria-current="page"
+        >
+          Projects
+        </a>
+
+        <a href="experience.html">
+          Experience
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
       </nav>
-      <a class="btn btn-primary" href="contact.html">Contact →</a>
-      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+
+      <a
+        class="btn btn-primary"
+        href="contact.html"
+      >
+        Contact →
+      </a>
+
+      <button
+        class="mobile-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        ☰
+      </button>
+
     </div>
   </header>
 
+
+  <!-- =========================
+       Main Content
+  ========================== -->
   <main>
-    <section class="page-hero">
+
+    <!-- Page Introduction -->
+    <section
+      class="page-hero"
+      aria-labelledby="projects-heading"
+    >
       <div class="container">
-        <h1>Projects</h1>
-        <p>My engineering work spans mechanical design, robotics, and systems integration. From actuator selection and torque analysis to full CAD-driven builds and real-world flight testing, each project reflects the same process: define requirements, prototype, test against real constraints, and iterate based on what breaks.</p>
-      </div>
-    </section>
 
-    <section class="section">
-      <div class="container project-grid">
-        <article class="project-card" id="hailstorm">
-          <div class="project-img-grid">
-            <img src="images/TMAD.jpg" alt="Yashvi holding RC Aircraft" />
-            <img src="images/TMADflight.jpg" alt="RC Aircraft flight test" />
-          </div>
-          <div class="project-body">
-            <div class="eyebrow">TMAD RC^3 Competition</div>
-            <div class="project-date">Jan 2026 - Aug 2026</div>
-            <h3>Remote Control Aircraft</h3>
-            <p>Collaborated with a multidisciplinary team to design and build a fully functional RC aircraft capable of safely transporting a payload. I was primarily responsible for manufacturing and assembly, putting the aircraft together from individual components, soldering and routing electrical wiring, and connecting the onboard electrical systems. I also helped test the aircraft and troubleshoot issues throughout the build. This experience strengthened my hands-on engineering skills, attention to detail, and ability to work with both mechanical and electrical systems while bringing a complex design from concept to flight.</p>
-            <div class="project-tags"><span class="tag">Electrical Wiring</span><span class="tag">CAD</span><span class="tag">Flight Testing</span><span class="tag">Airframe Design</span></div>
-             <div class="project-links">
-          <a class="project-link"
-             href="https://docs.google.com/presentation/d/19dlYsciCEPtYsi7GzKPdOb9Dhd_R3W7Z/edit?usp=sharing&ouid=105224889068681958290&rtpof=true&sd=true"
-             target="_blank"
-             rel="noopener">
-            View the Critical Design Review → 
-          </a>
-
-          <a class="project-link"
-             href="https://drive.google.com/file/d/17Y-Z8Djo_56-06uK97xco_RTai6ZiFHf/view?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Watch Flight Video →
-          </a>
-          </div>
-        </article>
-
-        <article class="project-card" id="stardust">
-          <div class="project-img-grid">
-            <img src="images/stardustpose.jpg" alt="Yashvi holding RC Aircraft" />
-            <img src="images/stardustmanufacturing.jpg" alt="RC Aircraft flight test" />
-          </div>
-          <div class="project-body">
-            <div class="eyebrow">MARS - Lead</div>
-            <div class="project-date">August 2026</div>
-            <h3>Stardust: High Power Rocket</h3>
-            <p>Designed, built, and successfully launched a high-powered rocket earning my Level 1 High-Power Rocketry (L1 HPR) certification. The vehicle was powered by a Cesaroni 164H90-12A solid rocket motor and achieved an approximately 400 m apogee with a maximum velocity of 97.4 m/s. The project involved airframe design, propulsion and recovery integration, aerodynamic stability analysis, and flight-performance simulation. The successful flight validated the vehicle’s structural integrity, stability, and overall flight performance.</p>
-            <div class="project-tags"><span class="tag">High Power Rocketry</span><span class="tag">Recovery Systems</span><span class="tag">Aerodynamics</span><span class="tag">Structural Design</span></div>
-          <div class="project-links">
-          <a class="project-link"
-             href="https://drive.google.com/file/d/1pGl3lynq3PfBPunPWgKXuNSpiLIpBOHi/view?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Watch Launch Video →
-          </a>
-         </div>
-        </article>
-        </article>
-       </div>
-    </section>
-
-    <section class="section">
-      <div class="container cta">
-        <div>
-          <div class="eyebrow">Let's connect</div>
-          <h2>Interested in my work?</h2>
-          <p>I'd be happy to discuss student research, aerospace clubs, engineering internships, or collaborative projects.</p>
+        <div class="eyebrow">
+          PROJECTS
         </div>
-        <a class="btn btn-primary" href="contact.html">Get in touch →</a>
+
+        <h1 id="projects-heading">
+          Engineering Projects
+        </h1>
+
+        <p>
+          My engineering work spans aerospace design, mechanical
+          systems, rocketry, electronics, and systems integration.
+          From CAD and structural design to manufacturing and
+          real-world flight testing, each project involves
+          designing around requirements, testing against real
+          constraints, and learning through iteration.
+        </p>
+
       </div>
     </section>
- 
+
+
+    <!-- =========================
+         Project Collection
+    ========================== -->
+    <section
+      class="section"
+      aria-labelledby="project-list-heading"
+    >
+      <div class="container project-grid">
+
+        <h2
+          id="project-list-heading"
+          class="sr-only"
+        >
+          Aerospace Engineering Projects
+        </h2>
+
+
+        <!-- =========================
+             TMAD RC3 Aircraft
+        ========================== -->
+        <article
+          class="project-card"
+          id="hailstorm"
+        >
+
+          <div class="project-img-grid">
+
+            <img
+              src="images/TMAD.jpg"
+              alt="Yashvi holding a fixed-wing RC aircraft built for the TMAD RC3 Competition"
+              loading="lazy"
+            />
+
+            <img
+              src="images/TMADflight.jpg"
+              alt="Fixed-wing RC aircraft during flight testing"
+              loading="lazy"
+            />
+
+          </div>
+
+          <div class="project-body">
+
+            <div class="eyebrow">
+              TMAD RC3 COMPETITION
+            </div>
+
+            <div class="project-date">
+              Jan 2026 – Aug 2026
+            </div>
+
+            <h2>
+              Remote Control Aircraft
+            </h2>
+
+            <p>
+              Collaborated with a multidisciplinary team to design
+              and build a fixed-wing RC aircraft capable of
+              transporting a payload. I was primarily responsible
+              for manufacturing and assembly, turning the CAD
+              design into a physical airframe from individual
+              components. I also worked on electrical wiring and
+              routing, soldering, and connecting the onboard
+              electrical systems. Throughout the build, I helped
+              with testing and troubleshooting as we prepared the
+              aircraft for flight.
+            </p>
+
+            <p>
+              Working under tight time constraints required
+              rebuilding and modifying components as issues came
+              up, while balancing mechanical, electrical, and
+              manufacturing requirements. The project gave me
+              hands-on experience taking an aircraft from design
+              through manufacturing, integration, and flight
+              testing.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">
+                Electrical Wiring
+              </span>
+
+              <span class="tag">
+                CAD
+              </span>
+
+              <span class="tag">
+                Flight Testing
+              </span>
+
+              <span class="tag">
+                Airframe Design
+              </span>
+
+              <span class="tag">
+                Manufacturing
+              </span>
+            </div>
+
+            <div class="project-links">
+
+              <a
+                class="project-link"
+                href="https://docs.google.com/presentation/d/19dlYsciCEPtYsi7GzKPdOb9Dhd_R3W7Z/edit?usp=sharing&ouid=105224889068681958290&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View the Critical Design Review →
+              </a>
+
+              <a
+                class="project-link"
+                href="https://drive.google.com/file/d/17Y-Z8Djo_56-06uK97xco_RTai6ZiFHf/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Watch Flight Video →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- =========================
+             Stardust Rocket
+        ========================== -->
+        <article
+          class="project-card"
+          id="stardust"
+        >
+
+          <div class="project-img-grid">
+
+            <img
+              src="images/stardustpose.jpg"
+              alt="Yashvi holding the Stardust high-powered rocket"
+              loading="lazy"
+            />
+
+            <img
+              src="images/stardustmanufacturing.jpg"
+              alt="Stardust high-powered rocket during manufacturing"
+              loading="lazy"
+            />
+
+          </div>
+
+          <div class="project-body">
+
+            <div class="eyebrow">
+              MARS — LEAD
+            </div>
+
+            <div class="project-date">
+              August 2026
+            </div>
+
+            <h2>
+              Stardust: High-Powered Rocket
+            </h2>
+
+            <p>
+              Designed, built, and successfully launched a
+              high-powered rocket, earning my Level 1 High-Power
+              Rocketry (L1 HPR) certification. The vehicle was
+              powered by a Cesaroni 164H90-12A solid rocket motor
+              and reached an approximately 400 m apogee with a
+              maximum velocity of 97.4 m/s.
+            </p>
+
+            <p>
+              The project involved airframe design, propulsion and
+              recovery integration, aerodynamic stability
+              analysis, structural design, and flight-performance
+              simulation. The successful flight provided a
+              practical test of the vehicle's structural integrity,
+              aerodynamic stability, recovery system, and overall
+              flight performance.
+            </p>
+
+            <div class="project-tags">
+
+              <span class="tag">
+                High-Power Rocketry
+              </span>
+
+              <span class="tag">
+                Recovery Systems
+              </span>
+
+              <span class="tag">
+                Aerodynamics
+              </span>
+
+              <span class="tag">
+                Structural Design
+              </span>
+
+              <span class="tag">
+                Flight Simulation
+              </span>
+
+            </div>
+
+            <div class="project-links">
+
+              <a
+                class="project-link"
+                href="https://drive.google.com/file/d/1pGl3lynq3PfBPunPWgKXuNSpiLIpBOHi/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Watch Launch Video →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         Call to Action
+    ========================== -->
+    <section
+      class="section"
+      aria-labelledby="connect-heading"
+    >
+      <div class="container cta">
+
+        <div>
+
+          <div class="eyebrow">
+            LET'S CONNECT
+          </div>
+
+          <h2 id="connect-heading">
+            Interested in my work?
+          </h2>
+
+          <p>
+            I'd be happy to discuss student research, aerospace
+            clubs, engineering internships, or collaborative
+            projects.
+          </p>
+
+        </div>
+
+        <a
+          class="btn btn-primary"
+          href="contact.html"
+        >
+          Get in touch →
+        </a>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer><div class="container footer-inner"><span>© <span data-year></span> Yashvi Shah | Portfolio</span><span>Aerospace Engineering Portfolio</span></div></footer>
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer>
+    <div class="container footer-inner">
+
+      <span>
+        © <span data-year></span> Yashvi Shah | Portfolio
+      </span>
+
+      <span>
+        Aerospace Engineering Portfolio
+      </span>
+
+    </div>
+  </footer>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
