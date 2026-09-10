@@ -342,8 +342,11 @@ h3 { margin: 0; }
 .timeline-item .date { color: var(--accent-2); font-weight:800; font-size:13px; }
 .timeline-item p { color: var(--muted); margin:6px 0 0; }
 
-.page-hero { padding: 74px 0 38px; }
+.page-hero { padding: 74px 0 0px; }
 .page-hero p { color: var(--muted); max-width: 720px; font-size:18px; }
+.page-hero + .section {
+  padding-top: 25px;
+}
 
 .contact-grid { display:grid; grid-template-columns: .82fr 1.18fr; gap:28px; align-items:start; }
 .contact-list { display:grid; gap:12px; margin-top:24px; }
@@ -399,4 +402,25 @@ footer { padding: 30px 0 42px; color: var(--muted); font-size:13px; }
   .orbit-wrapper { top: -15%; left: -15%; width: 130%; height: 130%; }
   .hud-telemetry { top: 12px; left: 12px; z-index: 4; font-size: 9.5px; padding: 6px 10px; background: rgba(5, 8, 22, 0.9); }
   .orbit-svg text { font-size: 14px; }
+}
+
+/* experience */
+.card:nth-child(1) .icon-box { background: rgba(79, 209, 255, .14); border-color: rgba(79, 209, 255, .3); color: var(--accent-2); }
+.card:nth-child(2) .icon-box { background: rgba(138, 125, 255, .14); border-color: rgba(138, 125, 255, .3); color: var(--accent); }
+.card:nth-child(3) .icon-box { background: rgba(255, 124, 200, .14); border-color: rgba(255, 124, 200, .3); color: var(--accent-3); }
+.card {
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,.22);
+  box-shadow: 0 16px 40px rgba(0,0,0,.28);
+}
+.card { position: relative; overflow: hidden; }
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
