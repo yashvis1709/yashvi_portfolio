@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Space engineering student portfolio showcasing projects, skills, research interests, and experience." />
+  <title>Yashvi Shah | Aerospace Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-shell">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">✦</span>
+        <span>Yashvi Shah<small>Aerospace Eng. | CAD & Systems Design</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-primary" href="contact.html">Contact →</a>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">AEROSPACE • ROBOTICS • SYSTEMS</div>
+          <h1>I Design, Build & Test <span class="gradient-text">Engineering Systems.</span></h1>
+          <p>I’m Yashvi, I design and build projects across space systems, robotics, embedded electronics, and computational modelling. I’m particularly interested in turning engineering theory into systems that can be built, tested, and improved.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projects.html">Explore my projects →</a>
+            <a class="btn btn-secondary" href="contact.html">Contact me</a>
+            <a class="btn btn-secondary" href="resume.html" target="_blank" rel="noopener noreferrer">View Resume ↗</a>
+          </div>
+          <div class="hero-meta">
+            <span><strong>Year 2</strong> Aerospace Engineering</span>
+            <span><strong>Toronto, Canada</strong></span>
+            <span>Open to <strong>Internships & Research</strong></span>
+          </div>
+      </div>
+
+      <div class="orbit-card">
+        <div class="orbit-wrapper">
+          <svg class="orbit-svg" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="4" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+              <linearGradient id="orbit-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4fd1ff" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#8a7dff" stop-opacity="0.2" />
+              </linearGradient>
+              <linearGradient id="orbit-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff7cc8" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#4fd1ff" stop-opacity="0.3" />
+              </linearGradient>
+            </defs>
+
+            <circle cx="350" cy="350" r="280" fill="rgba(138, 125, 255, 0.08)" filter="url(#glow)" />
+
+            <ellipse cx="350" cy="350" rx="310" ry="240" transform="rotate(-15 350 350)" stroke="url(#orbit-grad1)" stroke-width="2" filter="url(#glow)" />
+            <ellipse cx="350" cy="350" rx="260" ry="190" transform="rotate(25 350 350)" stroke="url(#orbit-grad2)" stroke-width="2" filter="url(#glow)" />
+            <ellipse cx="350" cy="350" rx="180" ry="300" transform="rotate(-35 350 350)" stroke="rgba(79, 209, 255, 0.5)" stroke-width="1.5" stroke-dasharray="6 6" />
+
+            <circle cx="90" cy="220" r="4" fill="#4fd1ff" filter="url(#glow)" />
+            <text x="50" y="225" fill="#4fd1ff" font-size="12" font-family="monospace" font-weight="bold">LEO</text>
+            
+            <circle cx="610" cy="480" r="5" fill="#ff7cc8" filter="url(#glow)" />
+            <text x="625" y="485" fill="#ff7cc8" font-size="12" font-family="monospace" font-weight="bold">MEO</text>
+
+            <circle cx="580" cy="180" r="4" fill="#8a7dff" filter="url(#glow)" />
+            <text x="595" y="175" fill="#8a7dff" font-size="12" font-family="monospace" font-weight="bold">Trans-Lunar</text>
+          </svg>
+        </div>
+
+        <img src="images/profile.jpg" alt="Yashvi with a rocket">
+
+        <div class="hud-telemetry">
+          <div class="hud-row"><span>ALT:</span> 400m</div>
+          <div class="hud-row"><span>VEL:</span> 97.4m/s</div>
+          <div class="hud-row"><span>MACH:</span> 0.3</div>
+        </div>
+
+        <div class="profile-badge">
+          <strong>Scratchbuilt High-Powered Rocket</strong>
+          <span>August 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Projects</div>
+          <h2>Engineering Work</h2>
+        </div>
+        <a class="btn btn-secondary" href="projects.html">See all projects</a>
+      </div>
+      <div class="container project-grid">
+        
+        <!-- CLICKABLE TMAD CARD -->
+        <a href="projects.html" class="project-card-link">
+          <article class="project-card" id="hailstorm">
+            <div class="project-img-grid">
+              <img src="images/TMAD.jpg" alt="Yashvi holding RC Aircraft" />
+              <img src="images/TMADflight.jpg" alt="RC Aircraft flight test" />
+            </div>
+            <div class="project-body">
+              <div class="eyebrow">TMAD RC^3 Competition</div>
+              <h3>Remote Control Aircraft</h3>
+              <div class="project-tags">
+                <span class="tag">Electrical Wiring</span>
+                <span class="tag">CAD</span>
+                <span class="tag">Flight Testing</span>
+                <span class="tag">Airframe Design</span>
+              </div>
+              <div class="project-links">
+                <span class="view-project-link">View full project →</span>
+              </div>
+            </div>
+          </article>
+        </a>
+
+        <!-- CTA CARD -->
+        <article class="project-card cta-card">
+          <a href="projects.html" class="card-link">
+            <div class="project-visual two cta-visual">
+              <span class="cta-icon">↗</span> 
+            </div>
+            <div class="project-body">
+              <h3>Explore Full Portfolio</h3>
+              <p>Discover rockets, satellite CAD models, and embedded systems code.</p>
+              <span class="btn btn-primary">View all projects →</span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <section class="section">
+      <div class="container cta">
+        <div>
+          <div class="eyebrow">Let’s connect</div>
+          <h2>Interested in my work?</h2>
+          <p>I’d be happy to discuss student research, aerospace clubs, engineering internships, or collaborative projects.</p>
+        </div>
+        <a class="btn btn-primary" href="contact.html">Get in touch →</a>
+      </div>
+    </section>
+
+</main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Yashvi Shah | Portfolio</span>
+      <span>Aerospace Engineering Portfolio</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
